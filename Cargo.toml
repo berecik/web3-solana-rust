@@ -1,0 +1,12 @@
+[package]
+name = "web3-solana-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+signature = "*"
+serde = { version = "*", features = ["derive"] }
+actix-web = "*"
+solana-client = "*"
+solana-sdk = "*"
+tokio = { version = "*", features = ["full"] }
